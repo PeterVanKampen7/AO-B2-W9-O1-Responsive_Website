@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Archivo', sans-serif;
+}
+
+html{
+    font-size: 18px;
+}
+
+#container{
+    border: 1px solid lightgray;
+    margin: 2vw;
+}
+
+nav{
+    background-color: yellow;
+    width: 95vw;
+    height: 9vh;
+}
+
+nav button{
+    padding: 2vw 3vh;
+    margin: 1.5vh;
+    background-color: transparent;
+    font-size: 1rem;
+    color: white;
+    border: 1px solid white;
+}
+
+img{
+    width: 100%;
+}
+
+#info{
+    margin: 9vw;
+    margin-top: 6vh;
+}
+
+#info h2{
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+}
+
+.solid {
+    border-top: 3px solid #bbb;
+    margin: 2vh 0;
+}
+
+#info p{
+    font-size: 0.8rem;
+    line-height: 1rem;
+    margin: 4vh 0;
+}
+
+#info button{
+    background-color: rgb(228, 228, 0);
+    font-size: 1.3rem;
+    width: 100%;
+    padding: 3vh 0;
+    text-decoration: none;
+    border: none;
+}
