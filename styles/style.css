@@ -31,6 +31,10 @@ nav button{
     border: 1px solid white;
 }
 
+ul{
+    list-style: none;
+}
+
 li{
     margin: 0.6rem;
     color: white;
@@ -38,7 +42,7 @@ li{
 }
 
 li a{
-    list-style: none;
+    
     text-decoration: none;
     font-size: 0.9rem;
 }
@@ -48,8 +52,7 @@ img{
 }
 
 #info{
-    margin: 9vw;
-    
+    margin: 9vw;   
 }
 
 #info h2{
@@ -80,8 +83,98 @@ img{
 
 iframe{
     margin-top: 8vh;
+    height: 80vh; 
+}
+
+#webMenu{
+    display: none;
+}
+
+#webMenu li{
+    display: inline;
+}
+
+header ul{    
+    display: none;
+}
+
+footer{
+    width: 100%;
+    background-color: yellow;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+    text-align: center;
 }
 
 @media screen and (min-width:992px){
+    nav{
+        height: 5vh;
+    }
 
+    nav button{
+        display: none;
+    }
+
+    #mobileMenu{
+        display: none;
+    }
+
+    #webMenu{
+        display: block;
+        color: black;
+        text-align: right;
+        margin-right: 10vw;
+        font-size: 1.3rem;
+    }
+
+    #webMenu li{
+        border: none;
+    }
+
+    .social{
+        margin: 0rem;
+    }
+
+    header img{
+        position: relative;
+        width: 70%;
+        left: -30vw;
+        overflow: hidden;
+    }
+
+    header ul{    
+        display: inline;
+        position: absolute;
+        top: 18vh;
+        right: 10vw;
+    }
+
+    header ul li{
+        display: inline;
+    }
+
+    header ul li a{
+        font-size: 1.2vw;
+    }
+
+    .infoBlock{
+        display: inline-block;
+        width: 30%;
+        margin: 1vw;
+        vertical-align: top;
+    }
+
+    #info{
+        margin-top: 4vw;
+    }
+
+    #info h2{
+        margin-top: 0vh;
+    }
+
+    iframe{
+        display: block;
+        height: 80vh;
+    }
 }
