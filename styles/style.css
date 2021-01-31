@@ -5,7 +5,7 @@
 }
 
 html{
-    font-size: 18px;
+    font-size: 3vh;
 }
 
 #container{
@@ -17,14 +17,14 @@ html{
 nav{
     background-color: yellow;
     width: 100%;
-    height: 9vh;
+    height: 10vh;
     overflow: hidden;
     transition: 0.6s ease;
 }
 
 nav button{
-    padding: 2vw 3vh;
-    margin: 1.5vh;
+    padding: 2vh 3vh;
+    margin: 1vh;
     background-color: transparent;
     font-size: 1rem;
     color: white;
@@ -40,6 +40,7 @@ li{
 li a{
     list-style: none;
     text-decoration: none;
+    font-size: 0.9rem;
 }
 
 img{
@@ -79,4 +80,8 @@ img{
 
 iframe{
     margin-top: 8vh;
+}
+
+@media screen and (min-width:992px){
+
 }
